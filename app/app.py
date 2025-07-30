@@ -1,4 +1,3 @@
-cat > app/app.py << 'EOF'
 import streamlit as st
 import pickle
 import numpy as np
