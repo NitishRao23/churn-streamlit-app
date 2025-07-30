@@ -5,7 +5,7 @@ import numpy as np
 st.title("📉 Telecom Customer Churn Prediction")
 
 # Load the model
-with open("mlmodel/churn_model.pkl", "rb") as f:
+with open("mlmodel/ml_model/churn_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 
